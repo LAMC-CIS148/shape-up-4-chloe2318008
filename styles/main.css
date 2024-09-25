@@ -1,3 +1,10 @@
+/* the styles for the elements */
+body {
+	font-family: sans-serif;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
 /* the styles for the footer */
 footer p {
 	text-align: center;
