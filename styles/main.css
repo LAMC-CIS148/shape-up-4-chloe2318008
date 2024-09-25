@@ -2,9 +2,27 @@
 body {
 	font-family: sans-serif;
 }
-a:focus, a:hover {
-	font-style: italic;
+a {
+color: maroon;/*set links to marron color*/
 }
+ 
+a:hover {
+color: steelblue;/*change link color to steelblue when hovered over them*/
+}
+ 
+ul a{
+font-weight:bold;/*bold the links under the list*/
+color: steelblue;/*set the color of the links under the list to steelblue*/
+}
+ 
+ul a:hover{
+color: maroon;/*change link color to maroon for the links under the list when hovered over*/
+}
+ 
+header img{
+float: left;/*float the header image to the left*/
+}
+
 /* the styles for the footer */
 footer p {
 	text-align: center;
