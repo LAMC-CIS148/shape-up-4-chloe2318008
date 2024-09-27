@@ -1,3 +1,7 @@
+/* custom property */
+:root {
+	--global-color-1: steelblue;
+}
 /* the styles for the elements */
 body {
 	font-family: sans-serif;
