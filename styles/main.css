@@ -23,7 +23,9 @@ header {
 header img{
 	float: left;
 }
-
+main {
+	clear: left;
+}
 /* the styles for the footer */
 footer p {
 	text-align: center;
