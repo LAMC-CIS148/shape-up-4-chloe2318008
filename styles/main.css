@@ -22,6 +22,11 @@ header {
 }
 header img{
 	float: left;
+.shadow {
+	text-shadow: steelblue;
+}
+/* the styles for the main content */
+
 }
 main {
 	clear: left;
