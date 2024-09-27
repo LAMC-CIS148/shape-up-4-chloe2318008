@@ -2,10 +2,6 @@
 body {
 	font-family: sans-serif;
 }
-/* the styles for the main content */
-main {
-	clear: left;
-}
 /*set links to marron color*/
 a {
 	color: maroon;
@@ -13,6 +9,10 @@ a {
 /*change link color to steelblue when hovered over them*/
 a:hover {
 	color: steelblue;
+}
+/* the styles for the main content */
+main {
+	clear: left;
 }
 /*set the color of the links under the list to steelblue*/ 
 ul a {
