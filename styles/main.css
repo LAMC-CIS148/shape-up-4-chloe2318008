@@ -24,6 +24,9 @@ header {
 	font-style: italic;
 	text-indent: 30px;
 }
+header h3 {
+	font-size: 30px;
+}
 header img{
 	float: left;
 }
