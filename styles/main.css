@@ -23,13 +23,13 @@ ul a:hover {
 header {
 	font-style: italic;
 	text-indent: 30px;
-	text-size: 117px;
 }
 header img{
 	float: left;
 }
 header h2{ 
 	color: steelblue;
+	text-size: 117px;
 }
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
