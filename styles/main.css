@@ -29,7 +29,7 @@ header img{
 }
 header h2{ 
 	color: steelblue;
-	font-size: 50px;
+	font-size: 26px;
 }
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
