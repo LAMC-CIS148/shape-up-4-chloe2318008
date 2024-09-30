@@ -25,14 +25,14 @@ header {
 	text-indent: 30px;
 }
 header h3 {
-	font-size: 30px;
+	font-size: 20px;
 }
 header img{
 	float: left;
 }
 header h2{ 
 	color: steelblue;
-	font-size: 40px;
+	font-size: 35px;
 }
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
