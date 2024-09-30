@@ -27,6 +27,9 @@ header {
 header img{
 	float: left;
 }
+header h3 {
+	font-size: 20px;
+}
 header h2{ 
 	color: steelblue;
 	font-size: 35px;
@@ -34,9 +37,7 @@ header h2{
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
 }
-header h3 {
-	font-size: 20px;
-}
+
 /* the styles for the main content */
 
 }
