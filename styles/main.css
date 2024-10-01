@@ -26,15 +26,11 @@ header {
 header img{
 	float: left;
 }
-header h2{ 
+header h1{ 
 	color: steelblue;
-	font-size: 20px;
 }
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
-}
-header h3{
-	font-size: 17px;
 }
 /* the styles for the main content */
 main {
