@@ -28,9 +28,13 @@ header img{
 }
 header h2{ 
 	color: steelblue;
+	font-size: 20;
 }
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
+}
+header h3{
+	font-size: 17;
 }
 /* the styles for the main content */
 main {
