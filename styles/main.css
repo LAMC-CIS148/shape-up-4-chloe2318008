@@ -18,7 +18,6 @@ ul a {
 ul a:hover {
 	color: maroon;
 }
-
 /* the styles for the header */
 header {
 	font-style: italic;
@@ -37,10 +36,7 @@ header h2{
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
 }
-
 /* the styles for the main content */
-
-}
 main {
 	clear: left;
 }
