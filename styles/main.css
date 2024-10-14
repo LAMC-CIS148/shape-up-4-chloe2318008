@@ -26,6 +26,7 @@ header {
 	font-style: italic;
 	text-indent: 30px;
 	border-bottom: steelblue;
+	background: linear-gradient(to bottom, lightsteelblue, white);
 }
 header img{
 	float: left;
