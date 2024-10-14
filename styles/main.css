@@ -5,6 +5,7 @@
 /* the styles for the elements */
 body {
 	font-family: sans-serif;
+	width: 900px;
 }
 a {
 	color: maroon;
@@ -22,6 +23,7 @@ ul a:hover {
 header {
 	font-style: italic;
 	text-indent: 30px;
+	border-bottom: steelblue;
 }
 header img{
 	float: left;
@@ -37,6 +39,11 @@ main {
 	clear: left;
 }
 /* the styles for the footer */
+footer {
+	background-color: steelblue;
+}
 footer p {
 	text-align: center;
+	color: white;
+	padding: 1em 0;
 }
