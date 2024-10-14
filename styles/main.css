@@ -6,6 +6,8 @@
 body {
 	font-family: sans-serif;
 	width: 900px;
+	border: steelblue;
+	shadow: black;
 }
 a {
 	color: maroon;
