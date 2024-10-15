@@ -12,7 +12,7 @@ body {
 	width: 900px;
 	margin: 0 auto;
 	border: 1px solid steelblue;
-	box-shadow: black;
+	box-shadow: 5px black;
 }
 a {
 	color: maroon;
