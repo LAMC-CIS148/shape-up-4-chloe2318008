@@ -11,7 +11,7 @@ body {
 	font-family: sans-serif;
 	width: 900px;
 	border: 1px solid steelblue;
-	box-shadow: black;
+	box-shadow: 10px 10px 5px 10px black;
 }
 a {
 	color: maroon;
