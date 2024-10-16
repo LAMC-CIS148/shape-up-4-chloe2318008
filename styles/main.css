@@ -35,7 +35,7 @@ header {
 	background: linear-gradient(to top, lightsteelblue, white);
 }
 header img{
-	float: right;
+	float: left;
 }
 header h1{ 
 	color: steelblue;
@@ -48,7 +48,7 @@ main {
 	clear: left;
 }
 main h2 {
-	padding: .5em 0 .25em .25em;
+	padding: .5em 0 .25em 0;
 }
 main h3 {
 	padding-bottom: .25em;
