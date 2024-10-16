@@ -35,7 +35,7 @@ header {
 	background: linear-gradient(to top, lightsteelblue, white);
 }
 header img{
-	float: left;
+	float: right;
 }
 header h1{ 
 	color: steelblue;
