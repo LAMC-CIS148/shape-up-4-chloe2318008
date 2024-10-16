@@ -48,7 +48,7 @@ main {
 	clear: left;
 }
 main h2 {
-	padding: .5em 0 .25em 0;
+	padding: .5em 0 .25em .25em;
 }
 main h3 {
 	padding-bottom: .25em;
