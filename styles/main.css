@@ -28,7 +28,7 @@ ul a:hover {
 }
 /* the styles for the header */
 header {
-	padding: 1.5em 0 2em 0;
+	padding: 2em 0 2em 0;
 	font-style: italic;
 	text-indent: 30px;
 	border-bottom: steelblue;
@@ -55,17 +55,17 @@ main h3 {
 	padding-bottom: .25em;
 }
 main p {
-	padding-bottom: .5em;
+	padding-bottom: .25em;
 }
 main blockquote {
 	padding: 0 2em;
 	font-style: italic;
 }
 main ul {
-	padding: 0 0 .25em 1.25em;
+	padding: 0 0 1.25em 1.25em;
 }
 main li {
-	padding-bottom: .35em;
+	padding-bottom: .5em;
 }
 /* the styles for the footer */
 footer {
