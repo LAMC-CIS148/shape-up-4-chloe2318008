@@ -39,6 +39,7 @@ header img{
 }
 header h1{ 
 	color: steelblue;
+	padding-bottom: .25em;
 }
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
