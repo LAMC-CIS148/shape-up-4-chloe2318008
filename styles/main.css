@@ -36,6 +36,7 @@ header {
 }
 header img{
 	float: left;
+	float: top;
 }
 header h1{ 
 	color: steelblue;
