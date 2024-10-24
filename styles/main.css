@@ -63,6 +63,7 @@ header h1{
 main {
 	float: left;
 	padding: 0 30px;
+	width: 690px;
 }
 main h2 {
 	padding: .5em 0 .25em 0;
