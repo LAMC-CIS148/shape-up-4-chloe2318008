@@ -46,16 +46,16 @@ header h1{
 	text-shadow: 2px 2px 2px var(--global-color-1);
 }
 /* the styles for the sidebarA */
-sidebarA {
+#sidebarA {
 	width: 245px;
 	float: left;
 }
-sidebarA h2 {
+#sidebarA h2 {
 	padding: .5em 0 .25em 0;
-sidebarA ul {
+#sidebarA ul {
 	padding: 0 0 1.25em 1.25em;
 }
-sidebarA li {
+#sidebarA li {
 	padding-bottom: .5em;
 }
 /* the styles for the main content */
@@ -77,16 +77,16 @@ main blockquote {
 	font-style: italic;
 }
 /* the styles for the sidebarB */
-sidebarB {
+#sidebarB {
 	width: 245px;
 }
-sidebarB h2 {
+#sidebarB h2 {
 	padding: .5em 0 .25em 0;
 }
-sidebarB h3 {
+#sidebarB h3 {
 	padding-bottom: .25em;
 }
-sidebarB p {
+#sidebarB p {
 	padding-bottom: .25em;
 }
 /* the styles for the footer */
