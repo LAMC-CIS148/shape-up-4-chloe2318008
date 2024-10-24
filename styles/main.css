@@ -95,6 +95,7 @@ main blockquote {
 /* the styles for the footer */
 footer {
 	background-color: steelblue;
+	clear: all;
 }
 footer p {
 	text-align: center;
