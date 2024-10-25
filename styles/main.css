@@ -51,14 +51,6 @@ header h1{
 	height: 480px;
 	float: left;
 }
-#sidebarA h2 {
-	padding: .5em 0 .25em 0;
-#sidebarA ul {
-	padding: 0 0 1.25em 1.25em;
-}
-#sidebarA li {
-	padding-bottom: .5em;
-}
 /* the styles for the main content */
 main {
 	float: left;
@@ -83,15 +75,6 @@ main blockquote {
 	width: 180px;
 	height: 480px;
 	float: left;
-}
-#sidebarB h2 {
-	padding: .5em 0 .25em 0;
-}
-#sidebarB h3 {
-	padding-bottom: .25em;
-}
-#sidebarB p {
-	padding-bottom: .25em;
 }
 /* the styles for the footer */
 footer {
