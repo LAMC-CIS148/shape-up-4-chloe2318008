@@ -82,7 +82,7 @@ main blockquote {
 #sidebarB {
 	width: 245px;
 	height: 480px;
-	float: right;
+	float: left;
 }
 #sidebarB h2 {
 	padding: .5em 0 .25em 0;
