@@ -48,7 +48,6 @@ header h1{
 /* the styles for the sidebarA */
 #sidebarA {
 	width: 180px;
-	height: 480px;
 	float: left;
 }
 /* the styles for the main content */
@@ -73,7 +72,6 @@ main blockquote {
 /* the styles for the sidebarB */
 #sidebarB {
 	width: 180px;
-	height: 480px;
 	float: left;
 }
 /* the styles for the footer */
