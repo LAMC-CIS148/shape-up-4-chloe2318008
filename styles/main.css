@@ -47,7 +47,7 @@ header h1{
 }
 /* the styles for the sidebarA */
 #sidebarA {
-	width: 245px;
+	width: 180px;
 	height: 480px;
 	float: left;
 }
@@ -63,7 +63,7 @@ header h1{
 main {
 	float: left;
 	padding: 0 30px;
-	width: 690px;
+	width: 964px;
 }
 main h2 {
 	padding: .5em 0 .25em 0;
@@ -80,7 +80,7 @@ main blockquote {
 }
 /* the styles for the sidebarB */
 #sidebarB {
-	width: 245px;
+	width: 180px;
 	height: 480px;
 	float: left;
 }
