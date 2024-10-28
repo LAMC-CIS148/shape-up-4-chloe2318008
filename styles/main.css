@@ -53,20 +53,15 @@ header h1{
 /* the styles for the main content */
 main {
 	float: left;
-	padding: 0 30px;
 	width: 600px;
 }
 main h2 {
-	padding: .5em 0 .25em 0;
 }
 main h3 {
-	padding-bottom: .25em;
 }
 main p {
-	padding-bottom: .25em;
 }
 main blockquote {
-	padding: 0 2em;
 	font-style: italic;
 }
 /* the styles for the sidebarB */
