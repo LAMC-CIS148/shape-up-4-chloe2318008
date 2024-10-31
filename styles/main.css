@@ -47,13 +47,13 @@ header h1{
 }
 /* the styles for the sidebarA */
 #sidebarA {
-	width: 299px;
+	width: 250px;
 	float: left;
 }
 /* the styles for the main content */
 main {
+	width: 550px;
 	float: left;
-	width: 598px;
 }
 main h2 {
 }
@@ -66,7 +66,7 @@ main blockquote {
 }
 /* the styles for the sidebarB */
 #sidebarB {
-	width: 299px;
+	width: 250px;
 	float: left;
 }
 /* the styles for the footer */
