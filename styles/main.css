@@ -2,10 +2,6 @@
 :root {
 	--global-color-1: steelblue;
 }
-* {
-	margin: 0;
-	padding: 0;
-}
 /* the styles for the elements */
 body {
 	font-family: sans-serif;
