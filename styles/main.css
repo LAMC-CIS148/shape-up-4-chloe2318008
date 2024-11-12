@@ -44,25 +44,28 @@ header h3 {
 
 /* Main Navigation Styles */
 nav {
-    width: 1200px; /* Make the nav bar span the full width */
+    width: 100%; /* Make the nav bar span the full width */
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0 30;
+    padding: 0;
     margin: 0;
     display: flex;
+    width: 100%; /* Ensure the ul takes up the full width */
+    justify-content: space-around; /* Add space around each menu item */
     background-color: steelblue; /* Background color for the menu */
 }
 
 nav ul li {
     position: relative;
+    text-align: center; /* Center the menu items */
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
-    padding: 15px 30px;
+    padding: 15px 20px;
     display: block;
     font-weight: bold;
     transition: background-color 0.3s;
