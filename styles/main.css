@@ -102,8 +102,10 @@ nav ul li a:focus {
 #sidebarA {
 	width: 250px;
 	float: left;
-	text-decoration: none;
 }
+#sidebarA li {
+	text-decoration: none;
+}	
 
 /*style for section*/
 section{
