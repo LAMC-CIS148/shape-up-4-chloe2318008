@@ -18,6 +18,9 @@ h1, h2, h3, p {
 a {
 	font-weight: bold;
 }
+a {
+  text-decoration: none;
+}
 
 /* the styles for the header */
 header {
