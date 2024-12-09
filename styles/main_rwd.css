@@ -1,1 +1,247 @@
+/* Custom property */
+:root {
+	--global-color-1: steelblue;
+}
+
+/* Styles for the elements */
+body {
+	font-family: sans-serif;
+	max-width: 1024px; /* Maximum width for fluid layout */
+	width: 95%; /* Fluid width */
+	margin: 0 auto;
+	padding: 0;
+	border: 3px solid var(--global-color-1);
+	box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Styles for the header */
+header {
+	padding: 1em 2em;
+	border-bottom: 2px solid var(--global-color-1);
+	background: linear-gradient(to bottom, lightsteelblue, white);
+}
+
+header img {
+	float: left;
+	max-width: 140px; /* Scalable image */
+	min-width: 70px;
+	width: 100%;
+	height: auto;
+}
+
+header h2 {
+	color: var(--global-color-1);
+	font-size: 2.5em; /* Converted to ems */
+	font-style: italic;
+	text-indent: 3em;
+	text-shadow: 3px 3px 3px var(--global-color-1);
+	margin-bottom: 0.3em;
+}
+
+header h3 {
+	font-size: 1.5em; /* Converted to ems */
+	text-indent: 3em;
+	padding-bottom: 0.75em;
+}
+
+/* Main Navigation Styles */
+nav {
+	width: 100%; /* Fluid nav bar */
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-around;
+	background-color: var(--global-color-1);
+}
+
+nav ul li {
+	position: relative;
+	text-align: center;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 1em 1.25em;
+	display: block;
+	transition: background-color 0.3s;
+}
+
+/* Current page link styling */
+nav ul li a[href="index.html"] {
+	color: black;
+}
+
+/* Submenu styling */
+nav ul li ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: var(--global-color-1);
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+
+nav ul li:hover ul {
+	display: block;
+}
+
+nav ul li ul li a {
+	padding: 0.75em 1.25em;
+	white-space: nowrap;
+}
+
+nav ul li ul li a:hover {
+	background-color: lightsteelblue;
+}
+
+/* Hover effects */
+nav ul li a:hover,
+nav ul li a:focus {
+	background-color: lightsteelblue;
+}
+
+/* SidebarA styles */
+#sidebarA {
+	width: 20%; /* Fluid width */
+	float: left;
+	padding: 1em;
+}
+
+#sidebarA li {
+	text-decoration: none;
+}
+
+/* Section styles */
+section {
+	width: 55%; /* Fluid width */
+	float: left;
+	padding: 1.5em 2em;
+}
+
+section h1 {
+	font-size: 1.3em;
+	margin-bottom: 0.3em;
+}
+
+section h2 {
+	font-size: 1.3em;
+	margin-bottom: 0.5em;
+}
+
+section h3 {
+	color: maroon;
+	font-size: 1.1em;
+	margin-bottom: 0.4em;
+}
+
+section p {
+	font-size: 1em;
+	margin-bottom: 0.7em;
+}
+
+section a:link,
+section a:visited {
+	color: maroon;
+}
+
+section a:hover,
+section a:focus {
+	color: var(--global-color-1);
+}
+
+/* SidebarB styles */
+#sidebarB {
+	width: 25%; /* Fluid width */
+	float: right;
+	padding: 1.5em 2em 0 0;
+}
+
+#sidebarB h2 {
+	font-size: 1.3em;
+	color: maroon;
+	margin-bottom: 0.5em;
+}
+
+#sidebarB p {
+	margin-bottom: 0.7em;
+}
+
+/* Footer styles */
+footer {
+	background-color: var(--global-color-1);
+	clear: both;
+	padding: 1em 2em;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	font-size: 0.85em;
+}
+
+/* Media Query for max-width: 900px */
+@media screen and (max-width: 900px) {
+	body {
+		box-shadow: none;
+		font-size: 90%; /* Reduce overall font size */
+	}
+}
+
+/* Media Query for max-width: 767px */
+@media screen and (max-width: 767px) {
+	nav {
+		display: none; /* Hide the main nav */
+	}
+
+	/* SlickNav menu styles */
+	.slicknav_menu {
+		background-color: var(--global-color-1);
+		padding: 3px;
+	}
+
+	.slicknav_nav a {
+		background-color: var(--global-color-1);
+		color: white;
+	}
+
+	.slicknav_nav a:hover {
+		background-color: lightsteelblue;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	body {
+		display: block; /* Single-column layout */
+	}
+}
+
+/* Media Query for max-width: 479px */
+@media screen and (max-width: 479px) {
+	h1, h2, h3 {
+		font-size: 1.5em;
+	}
+
+	p {
+		font-size: 0.9em;
+	}
+}
 
